@@ -184,6 +184,9 @@ input[type="reset"]:hover {
 }
 
 @media (min-width: 768px) {
+    #basavanna,.logo{
+     dislay:none;
+ }
     header {
         text-align: center;
     }
@@ -195,6 +198,9 @@ input[type="reset"]:hover {
 
     /* Media Query for Mobile Devices */
 @media only screen and (max-width: 767px) {
+    #basavanna,.logo{
+     dislay:none;
+ }
     body {
         font-size: 14px; /* Adjust font size for better mobile readability */
     }
@@ -369,6 +375,9 @@ font-size: 1.3rem ;
      top: 25px;
      left: 25px;
      cursor: pointer;
+ }
+#basavanna,.logo{
+     dislay:none;
  }
 }
 
